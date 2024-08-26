@@ -1,0 +1,22 @@
+{
+	"name": "ankit_aug_adls_ls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://ankaugdevadlssa.dfs.core.windows.net/",
+			"tenant": "e6b80df0-b2d9-4873-8389-03687290dc6b",
+			"servicePrincipalId": "cab62fc7-fd25-4d97-8863-23e4c36b50fb",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ankit_aug_AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Meta-Sec"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
+}

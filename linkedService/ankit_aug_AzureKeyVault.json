@@ -1,0 +1,10 @@
+{
+	"name": "ankit_aug_AzureKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://ankit-aug-dev-kv.vault.azure.net/"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"name": "ank_ds_onprem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ankit_aug_onprem_ls",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Source_Table_Name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "category_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "category_name",
+				"type": "varchar"
+			},
+			{
+				"name": "created_at",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "updated_at",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().Source_Table_Name",
+				"type": "Expression"
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"name": "ank-aug-dev-ir-onprem",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

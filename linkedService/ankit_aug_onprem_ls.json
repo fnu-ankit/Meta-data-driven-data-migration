@@ -1,0 +1,17 @@
+{
+	"name": "ankit_aug_onprem_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=localhost;initial catalog=MADE",
+			"userName": "LAPTOP-D0NLI2UQ\\Ankit",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MTU4MGJhNC0yYzE4LTQ5MjUtYmQ5ZS1lYTZkZjMwODY3YmYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ank-aug-dev-ir-onprem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

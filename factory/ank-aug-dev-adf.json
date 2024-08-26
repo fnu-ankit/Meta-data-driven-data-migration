@@ -1,0 +1,9 @@
+{
+	"name": "ank-aug-dev-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0f431290-27e4-4c3b-a57e-9818f377e142",
+		"tenantId": "e6b80df0-b2d9-4873-8389-03687290dc6b"
+	}
+}
